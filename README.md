@@ -87,3 +87,22 @@ The dataset used in this project is licensed under the **Apache License 2.0**. I
 - **License:** The dataset's original copyright notice and Apache 2.0 license are preserved in this repository (see `LICENSE` file). This project's own code is also shared under the same Apache 2.0 terms.
 
 See the `LICENSE` file for the full license text.
+
+## Visual Analysis
+
+### Distributions of key variables
+![Distributions](images/distributions.png)
+
+### Calories burned by gender and experience level
+![Gender and Experience](images/gender_experience.png)
+
+### Why does experience seem to matter?
+Average session duration rises with experience level (1.01, 1.25, and 1.76 hours), and so do average calories (726, 902, and 1265). But calories per hour are almost identical across levels (about 720), so the difference comes from longer sessions, not more intense ones.
+
+![Experience and Duration](images/experience_duration.png)
+![Calories per Hour](images/calories_per_hour.png)
+
+### Model evaluation
+The predictions follow the ideal line closely and the errors are centered around zero.
+
+![Model Evaluation](images/model_evaluation.png)
